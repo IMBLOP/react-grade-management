@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+
+/* 헤더 스타일 */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* 팝업 배경 */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* 팝업 표시 */
+.modal.show {
+  display: flex;
+}
+
+/* 팝업 내용 */
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  width: 100%;
+}
+
+/* 팝업 버튼 스타일 */
+.modal-content button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #218838;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; /* 세로로 중앙 정렬 */
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* 공통 버튼 스타일 */
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* 버튼 hover 및 클릭 효과 */
+button:hover {
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* 버튼 색상 통일 (초록색) */
+.add-btn,
+.delete-btn,
+.save-btn {
+  background-color: #28a745; /* 초록색 */
+}
+
+.add-btn:hover,
+.delete-btn:hover,
+.save-btn:hover {
+  background-color: #218838; /* hover 시 어두운 초록색 */
+}
+
+
+/* select 박스 스타일 */
+select {
+  padding: 4px 16px; 
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  flex-grow: 0; 
+  margin-right: 20px;
+  height: 36px; 
+}
+
+
+/* select 박스 hover 효과 */
+select:hover {
+  background-color: #e0e0e0;
+  border-color: #007bff;
+}
+
+/* select 박스 focus 효과 */
+select:focus {
+  background-color: #fff;
+  border-color: #007bff;
+  outline: none;
+}
+
+/* option 요소 스타일 */
+option {
+  font-size: 16px;
+  padding: 8px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* option hover 효과 */
+option:hover {
+  background-color: #f0f0f0;
+}
