@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-grade-management/static/css/main.e07152cb.css",
+    "main.js": "/react-grade-management/static/js/main.973d0b24.js",
+    "static/js/453.cd40d8e2.chunk.js": "/react-grade-management/static/js/453.cd40d8e2.chunk.js",
+    "index.html": "/react-grade-management/index.html",
+    "main.e07152cb.css.map": "/react-grade-management/static/css/main.e07152cb.css.map",
+    "main.973d0b24.js.map": "/react-grade-management/static/js/main.973d0b24.js.map",
+    "453.cd40d8e2.chunk.js.map": "/react-grade-management/static/js/453.cd40d8e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e07152cb.css",
+    "static/js/main.973d0b24.js"
+  ]
+}
